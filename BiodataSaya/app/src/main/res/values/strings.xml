@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Biodata Novendra</string>
+
+    <string name="Lahir">- Lahir pada bulan November</string>
+    <string name="Berasal">- Berasal dari Sleman</string>
+    <string name="Hobi">- Hobi melihat pemandangan</string>
+    <string name="Penggemar">- Penggemar diecast dan miniatur</string>
+
+    <string name="Microsoft">- Microsoft Office</string>
+    <string name="Adobe">- Adobe Photoshop, CorelDRAW</string>
+    <string name="PHP">- PHP, Java, Python</string>
+    <string name="Sedang">- Sedang belajar Kotlin</string>
+
+    <string name="Indonesia">- Indonesia 99%</string>
+    <string name="Inggris">- Inggris 60%</string>
+    <string name="Jawa">- Jawa 99%</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

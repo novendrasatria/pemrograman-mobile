@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/utamaFragment">
+
+    <fragment
+        android:id="@+id/utamaFragment"
+        android:name="com.novendra.satria.myapplication.UtamaFragment"
+        android:label="fragment_utama"
+        tools:layout="@layout/fragment_utama" >
+        <action
+            android:id="@+id/action_utamaFragment_to_tampilanFragment"
+            app:destination="@id/tampilanFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tampilanFragment"
+        android:name="com.novendra.satria.myapplication.TampilanFragment"
+        android:label="fragment_tampilan"
+        tools:layout="@layout/fragment_tampilan" >
+        <action
+            android:id="@+id/action_tampilanFragment_to_saranFragment"
+            app:destination="@id/saranFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/saranFragment"
+        android:name="com.novendra.satria.myapplication.SaranFragment"
+        android:label="fragment_saran"
+        tools:layout="@layout/fragment_saran" >
+        <action
+            android:id="@+id/action_saranFragment_to_hasilSaranFragment"
+            app:destination="@id/hasilSaranFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/hasilSaranFragment"
+        android:name="com.novendra.satria.myapplication.HasilSaranFragment"
+        android:label="fragment_hasil_saran"
+        tools:layout="@layout/fragment_hasil_saran" >
+        <action
+            android:id="@+id/action_hasilSaranFragment_to_penutupFragment"
+            app:destination="@id/penutupFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/penutupFragment"
+        android:name="com.novendra.satria.myapplication.PenutupFragment"
+        android:label="fragment_penutup"
+        tools:layout="@layout/fragment_penutup" >
+        <action
+            android:id="@+id/action_penutupFragment_to_utamaFragment"
+            app:destination="@id/utamaFragment" />
+    </fragment>
+</navigation>
