@@ -1,7 +1,9 @@
 package com.novendra.satria.praktikumrecycleview
 
+import android.app.Person
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -32,6 +34,7 @@ class MainActivity : AppCompatActivity() {
                 adapter.notifyDataSetChanged()
                 mRecyclerView.adapter = adapter
             }
+
         }
     }
 }
