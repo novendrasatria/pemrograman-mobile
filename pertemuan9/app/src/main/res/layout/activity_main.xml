@@ -26,7 +26,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="32dp"
-            android:text="Player A"
+            android:text="HOME"
             android:textColor="#ffffff"
             android:textSize="24sp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -85,7 +85,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="32dp"
-            android:text="Player B"
+            android:text="AWAY"
             android:textColor="#ffffff"
             android:textSize="24sp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -135,7 +135,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/constraintLayout4">
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout4"
+        tools:context="com.novendra.satria.pertemuan9.ToastActivity">
 
         <Button
             android:id="@+id/btnPlayerA"
@@ -145,15 +146,14 @@
             android:layout_marginTop="24dp"
             android:layout_marginEnd="8dp"
             android:background="#fff"
-            android:text="A +1"
+            android:text="SCORE"
             android:textColor="#2196F3"
             android:textSize="24sp"
             app:layout_constraintEnd_toStartOf="@+id/btnPlayerB"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintHorizontal_chainStyle="spread"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:context=".ToastActivity"/>
+            app:layout_constraintTop_toTopOf="parent"/>
 
         <Button
             android:id="@+id/btnPlayerB"
@@ -163,14 +163,13 @@
             android:layout_marginTop="24dp"
             android:layout_marginEnd="8dp"
             android:background="#fff"
-            android:text="B +1"
+            android:text="SCORE"
             android:textColor="#2196F3"
             android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toEndOf="@+id/btnPlayerA"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:context=".ToastActivity"/>
+            app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

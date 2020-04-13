@@ -11,12 +11,12 @@ class ToastActivity: AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        var btn_click_me = findViewById(R.id.btnPlayerA) as Button
-        btn_click_me.setOnClickListener{
+        var btnPlayerA = findViewById(R.id.btnPlayerA) as Button
+        btnPlayerA.setOnClickListener{
             Toast.makeText(this, "Menambah Skor Pada Player A", Toast.LENGTH_LONG).show()
 
-            var btn_click_me2 = findViewById(R.id.btnPlayerB) as Button
-            btn_click_me2.setOnClickListener {
+            var btnPlayerB = findViewById(R.id.btnPlayerB) as Button
+            btnPlayerB.setOnClickListener {
                 Toast.makeText(this, "Menambah Skor Pada Player B", Toast.LENGTH_LONG).show()
             }
         }
