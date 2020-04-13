@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    >
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout4"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:background="#009688"
+        android:background="#FF8E02"
         app:layout_constraintBottom_toTopOf="@+id/constraintLayout5"
         app:layout_constraintEnd_toStartOf="@+id/constraintLayout3"
         app:layout_constraintHorizontal_bias="0.5"
@@ -70,7 +71,7 @@
         android:id="@+id/constraintLayout3"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:background="#4CAF50"
+        android:background="#43BB28"
         app:layout_constraintBottom_toTopOf="@+id/constraintLayout5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -151,7 +152,8 @@
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintHorizontal_chainStyle="spread"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            tools:context=".ToastActivity"/>
 
         <Button
             android:id="@+id/btnPlayerB"
@@ -167,7 +169,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toEndOf="@+id/btnPlayerA"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            tools:context=".ToastActivity"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
